@@ -1,0 +1,54 @@
+EDA Summary for Sentiment Dataset
+===================================
+Total Records: 732
+
+Sentiment Value Counts (Top 15):
+Sentiment
+Positive       45
+Joy            44
+Excitement     37
+Contentment    19
+Neutral        18
+Gratitude      18
+Curiosity      16
+Serenity       15
+Happy          14
+Despair        11
+Nostalgia      11
+Awe             9
+Grief           9
+Loneliness      9
+Hopeful         9
+Name: count, dtype: int64
+
+Platform Value Counts:
+Platform
+Instagram    258
+Twitter      243
+Facebook     231
+Name: count, dtype: int64
+
+Country Value Counts (Top 10):
+Country
+USA          188
+UK           143
+Canada       135
+Australia     75
+India         70
+Brazil        17
+France        16
+Japan         15
+Germany       14
+Italy         11
+Name: count, dtype: int64
+
+Basic Statistics for Likes and Retweets:
+            Likes    Retweets
+count  732.000000  732.000000
+mean    42.901639   21.508197
+std     14.089848    7.061286
+min     10.000000    5.000000
+25%     34.750000   17.750000
+50%     43.000000   22.000000
+75%     50.000000   25.000000
+max     80.000000   40.000000
